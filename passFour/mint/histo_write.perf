@@ -1,0 +1,11 @@
+Base implementation of histogramming.
+Maintained by Nady Obeid <obeid1@ece.uiuc.edu>
+
+IO        : 0.041106
+ -Input     : 0.006823
+ -Output    : 0.034283
+Compute   : 11.881445
+Timer Wall Time: 11.922586
+Pass
+Parboil parallel benchmark suite, version 0.2
+
