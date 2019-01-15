@@ -1,0 +1,9 @@
+CPU-based 7 points stencil codes****
+Original version by Li-Wen Chang <lchang20@illinois.edu> and I-Jui Sung<sung10@illinois.edu>
+This version maintained by Chris Rodrigues  ***********
+IO        : 0.169081
+Compute   : 95.848351
+Timer Wall Time: 96.017433
+Pass
+Parboil parallel benchmark suite, version 0.2
+

@@ -1,0 +1,13 @@
+Opening file:/home/nvidia/ssd/gits/BWLOCK-GPU/benchmarks/parboil/datasets/sgemm/medium/input/matrix1.txt
+Matrix dimension: 1024x992
+Opening file:/home/nvidia/ssd/gits/BWLOCK-GPU/benchmarks/parboil/datasets/sgemm/medium/input/matrix2t.txt
+Matrix dimension: 1056x992
+Opening file:/home/nvidia/ssd/gits/BWLOCK-GPU/benchmarks/parboil/benchmarks/sgemm/run/medium/matrix3.txt for write.
+Matrix dimension: 1024x1056
+GFLOPs = 0.0878191
+IO        : 3.392545
+Compute   : 24.429608
+Timer Wall Time: 27.822294
+Pass
+Parboil parallel benchmark suite, version 0.2
+

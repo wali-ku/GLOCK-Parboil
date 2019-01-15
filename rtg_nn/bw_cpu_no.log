@@ -1,0 +1,18 @@
+# started on Wed Jan  9 08:22:39 2019
+
+
+ Performance counter stats for 'bandwidth -c 5 -m 16 -t 10000 -a write':
+
+       8981.047968      task-clock (msec)         #    0.699 CPUs utilized          
+               966      context-switches          #    0.108 K/sec                  
+                 1      cpu-migrations            #    0.000 K/sec                  
+                69      page-faults               #    0.008 K/sec                  
+    18,237,010,714      cycles                    #    2.031 GHz                    
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+    46,808,222,414      instructions              #    2.57  insns per cycle        
+   <not supported>      branches                 
+        22,955,409      branch-misses             #    0.00% of all branches        
+
+      12.840646073 seconds time elapsed
+
