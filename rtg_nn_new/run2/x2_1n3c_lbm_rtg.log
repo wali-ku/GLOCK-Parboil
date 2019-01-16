@@ -1,0 +1,51 @@
+MAIN_printInfo:
+	grid size      : 120 x 120 x 150 = 2.16 * 10^6 Cells
+	nTimeSteps     : 3000
+	result file    : /home/nvidia/ssd/gits/BWLOCK-GPU/benchmarks/parboil/benchmarks/lbm/run/long/reference.dat
+	action         : store
+	simulation type: lid-driven cavity
+	obstacle file  : /home/nvidia/ssd/gits/BWLOCK-GPU/benchmarks/parboil/datasets/lbm/long/input/120_120_150_ldc.of
+
+LBM_allocateGrid: allocated 169.2 MByte
+LBM_allocateGrid: allocated 169.2 MByte
+LBM_showGridStatistics:
+	nObstacleCells:  343321 nAccelCells:   26912 nFluidCells: 1789767
+	minRho:   1.0000 maxRho:   1.0000 mass: 2.160000e+06
+	minU: 0.000000e+00 maxU: 0.000000e+00
+
+timestep: 64
+timestep: 128
+timestep: 192
+timestep: 256
+MAIN_stopClock:
+	usr:  236.01 sys:    0.11 tot:  236.12 wct:   68.67 MLUPS: 94.36
+
+LBM_showGridStatistics:
+	nObstacleCells:  343321 nAccelCells:   26912 nFluidCells: 1789767
+	minRho:   0.9187 maxRho:   1.0844 mass: 2.159998e+06
+	minU: 2.219546e-06 maxU: 3.243893e-02
+
+Compute   : 71.170834
+Timer Wall Time: 71.170837
+Final simulated flow volume does not match expected flow volume
+
+Mismatch
+Parboil parallel benchmark suite, version 0.2
+
+Output checking tool detected a mismatch
+
+ Performance counter stats for './parboil run lbm omp_cpu long':
+
+     243742.469024      task-clock (msec)         #    3.185 CPUs utilized          
+             8,416      context-switches          #    0.035 K/sec                  
+               145      cpu-migrations            #    0.001 K/sec                  
+           418,343      page-faults               #    0.002 M/sec                  
+   494,811,548,003      cycles                    #    2.030 GHz                    
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   641,494,537,128      instructions              #    1.30  insns per cycle        
+   <not supported>      branches                 
+        23,685,222      branch-misses             #    0.00% of all branches        
+
+      76.532558412 seconds time elapsed
+
